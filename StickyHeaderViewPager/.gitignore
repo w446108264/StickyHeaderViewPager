@@ -1,0 +1,23 @@
+*.iml
+*.iml
+*.ipr
+*.iws
+.DS_Store
+.idea/
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# Eclipse project files
+.classpath
+.project
+
+
+/.gradle
+/gradle
+/build
+gradlew
+gradlew.bat

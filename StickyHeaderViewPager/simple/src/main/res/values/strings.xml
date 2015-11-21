@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">StickyHeaderViewPager</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="long_text">
+    Hello StickHeaderViewPager \n
+    Hello StickHeaderViewPager \n
+
+    Hello StickHeaderViewPager \n
+    Hello StickHeaderViewPager \n
+
+    Hello StickHeaderViewPager \n
+    Hello StickHeaderViewPager \n
+
+    Hello StickHeaderViewPager \n
+    Hello StickHeaderViewPager \n
+
+    Hello StickHeaderViewPager \n
+    Hello StickHeaderViewPager \n
+
+    Hello StickHeaderViewPager \n
+    Hello StickHeaderViewPager \n
+
+    Hello StickHeaderViewPager \n
+    Hello StickHeaderViewPager \n
+
+    Hello StickHeaderViewPager \n
+    Hello StickHeaderViewPager \n</string>
+
+
+    <string name="medium_text">
+    Hello StickHeaderViewPager \n
+    Hello StickHeaderViewPager \n
+    Hello StickHeaderViewPager \n
+    Hello StickHeaderViewPager \n
+    Hello StickHeaderViewPager \n</string>
+
+    <string name="short_text">Hello StickHeaderViewPager</string>
+</resources>

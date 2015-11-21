@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity">
+
+    <com.library.StickHeaderViewPager
+        android:id="@+id/shvp_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/iv_headerImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/bg_simple_header"
+            android:scaleType="centerInside"/>
+
+        <TextView
+            android:id="@+id/tv_stick"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:background="#657232"
+            android:text="This is a simple demo!"
+            />
+    </com.library.StickHeaderViewPager>
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity">
+
+    <android.support.v7.widget.Toolbar style="@style/App.Toolbar" />
+
+    <com.library.StickHeaderViewPager
+        android:id="@+id/shvp_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@android:color/white"
+            >
+
+            <ImageView
+                android:id="@+id/iv_avatar"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_avatar"/>
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_github"
+                android:layout_above="@+id/tv_github"
+                android:text="w446108264"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                style="@style/Base.TextAppearance.AppCompat.Body2"/>
+
+            <TextView
+                android:id="@+id/tv_github"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_avatar"
+                android:layout_marginLeft="20dp"
+                android:layout_alignBottom="@+id/iv_avatar"
+                android:layout_marginBottom="10dp"
+                android:textColor="#ff0099cc"
+                android:textSize="14sp"
+                android:text="https://github.com/w446108264"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:layout_alignParentBottom="true"
+                android:background="#cccccc"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.library.tab.SlidingTabLayout
+                android:id="@+id/stl_stick"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                app:indicatorColor="@color/colorAccent"
+                app:shouldExpand="true"
+                app:slidingTabTextViewId="@+id/tv_tab"
+                app:slidingTabView="@layout/view_stick" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.6dp"
+                android:background="#cccccc"/>
+        </LinearLayout>
+    </com.library.StickHeaderViewPager>
+</RelativeLayout>
