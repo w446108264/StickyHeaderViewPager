@@ -1,10 +1,10 @@
 StickyHeaderViewPager
 ======================
 
-An Android library supports sticking the navigator on the top when ItemView scrolls in Viewpager./Users/sj/WorkSpace/OsChianGit/StickyHeaderViewPager/README.md
+An Android library supports sticking the navigator on the top when ItemView scrolls in Viewpager.
 
 
-「 [github.com/w446018264/StickHeaderLayout](https://github.com/w446018264/StickHeaderLayout) 」other library , more freely defined as you need
+「 [github.com/w446108264/StickHeaderLayout](https://github.com/w446108264/StickHeaderLayout) 」other library , more freely defined as you need
 
 
  ![Art](https://github.com/w446108264/StickyHeaderViewPager/raw/master/output/little.gif)
