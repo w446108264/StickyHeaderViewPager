@@ -1,16 +1,22 @@
 StickyHeaderViewPager
 ======================
 
+> j.s 🇨🇳 
+> 
+> Stop Support 
+> 
+> recommend the new project 「[w446108264/ScrollableLayout](https://github.com/w446108264/ScrollableLayout) 」(easy to add a headview for any view and supports sticking the navigator on the top when ItemView scrolls.)
+
+
 An Android library supports sticking the navigator on the top when ItemView scrolls in Viewpager.
-
-
-「 [github.com/w446108264/StickHeaderLayout](https://github.com/w446108264/StickHeaderLayout) 」other library , more freely defined as you need
-
-
- ![Art](https://github.com/w446108264/StickyHeaderViewPager/raw/master/output/little.gif)
  
+other library which more freely defined 「 [w446108264/StickHeaderLayout](https://github.com/w446108264/StickHeaderLayout) 」
+
  
 ![Art](https://github.com/w446108264/StickyHeaderViewPager/raw/master/output/big.gif)
+ 
+![Art](https://github.com/w446108264/StickyHeaderViewPager/raw/master/output/little.gif)
+ 
 
 # Features
 
@@ -22,19 +28,9 @@ An Android library supports sticking the navigator on the top when ItemView scro
 
 You can [download a sample APK](https://github.com/w446108264/StickyHeaderViewPager/raw/master/output/simple.apk) 
 
-
-
-# Gradle Dependency
-
-
-
---
-
-
+  
 # Usage
- 
-simple to your proejct
- 
+    
 ### Layout
  
 howerver, `StickHeaderViewPager` must have two childViews,frist childView will scroll with viewpager,second will tick on the top.
@@ -109,7 +105,7 @@ and then create a fragment which extends `ScrollFragment`.it's easy. if you need
 last step,init your StickHeaderViewPager with `StickHeaderViewPagerBuilder`.that's all. by the way,activity should extends FragmentActivity or AppCompatActivity.
 
 ```java
-  StickHeaderViewPagerBuilder.stickTo((StickHeaderViewPager) findViewById(R.id.shvp_content))
+StickHeaderViewPagerBuilder.stickTo((StickHeaderViewPager) findViewById(R.id.shvp_content))
                 .setFragmentManager(getSupportFragmentManager())
                 .addScrollFragments(ListViewSimpleFragment.newInstance("ListView"))
                 .notifyData();
